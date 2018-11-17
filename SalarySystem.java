@@ -1,11 +1,11 @@
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
-public class SS extends JFrame implements ActionListener
+public class SalarySystem extends JFrame implements ActionListener
 {
 public static void main(String []args)
 {
-new SS();
+new SalarySystem();
 }
 private JLabel l1,l2,l3,l4,l5,l6,l7,l8,l9,l10,l11,l12,l13,l14,l15,l16,l17,l18,l19,l20,l21,l22;
 private JButton b1;
@@ -13,7 +13,7 @@ private JTextField t1,t2,t3,t4,t5,t6;
 private JRadioButton bt1,bt2,bt3,bt4;
 private JComboBox cb;
 double al,oth,ba,otr,otp,pay,ir,it,nom,mp,ts,p,q,r,s,a,b,c,d;
-public SS()
+public SalarySystem()
 {
 this.setSize(770,540);
 this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
